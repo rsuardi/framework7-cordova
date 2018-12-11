@@ -9,7 +9,7 @@ A simple single view Framework7 starter app template.
 git clone https://github.com/rsuardi/framework7-cordova.git framework7-cordova
 ```
 
-Repository will be downloaded into `my-app/` folder
+Repository will be downloaded into `framework7-cordova/` folder
 
 ### 2. Instal dependencies
 
