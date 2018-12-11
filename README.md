@@ -11,7 +11,7 @@ git clone https://github.com/rsuardi/framework7-cordova.git framework7-cordova
 
 Repository will be downloaded into `framework7-cordova/` folder
 
-### 2. Instal dependencies
+### 2. Install dependencies
 
 Go to the downloaded repository folder and run:
 ```
@@ -26,7 +26,7 @@ This will download latest version of Framework7 (to `/www/framework7/`) and requ
 npm install -g cordova
 ```
 
-### 4. Install android or IOS plaform
+### 4. Install android or IOS platform
 
 ```
 npm run add-android-platform
@@ -42,6 +42,8 @@ npm run add-ios-platform
 npm run serve
 ```
 
+App will be opened in browser at `http://localhost:8080/`
+
 ### Building/compiling the app into an APK (windows)
 
 ```
@@ -54,13 +56,12 @@ npm run wind-build
 npm run linux-build
 ```
 
-App will be opened in browser at `http://localhost:8080/`
 
-## One command install
+## One command install and run
 
 ```
 git clone https://github.com/rsuardi/framework7-cordova.git framework7-cordova &&
-cd my-app &&
+cd framework7-cordova &&
 npm install &&
 npm install -g cordova &&
 npm run add-android-platform &&
