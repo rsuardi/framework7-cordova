@@ -10,8 +10,10 @@
     "serve": "http-server ./www/ -o -c 1 -a localhost",
     "copy-f7": "cpy node_modules/framework7/js/*.* www/framework7/js && cpy node_modules/framework7/css/*.* www/framework7/css && cpy node_modules/framework7-icons/fonts/*.* www/fonts && cpy node_modules/material-design-icons/iconfont/*.{eot,ttf,woff,woff2} www/fonts",
     "postinstall": "npm run copy-f7",
-    "add-android-platform": "start add-android-platform.bat",
-    "add-ios-platform": "start add-ios-platform.bat",
+    "add-android-platform-win": "start add-android-platform.bat",
+    "add-android-platform-linux": "chmod +x add-android-platform.sh && ./add-android-platform.sh",
+    "add-ios-platform-win": "start add-ios-platform.bat",
+    "add-ios-platform-linux": "chmod +x add-ios-platform.sh && ./add-ios-platform.sh",
     "linux-build": "chmod +x linux-build.sh && ./linux-build.sh",
     "wind-build": "start win-build.bat"
   },
